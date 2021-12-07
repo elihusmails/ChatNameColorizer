@@ -1,0 +1,14 @@
+name: ChatNameColorizer
+version: '${project.version}'
+main: com.markwebb.spigot.chatnamecolorizer.ChatNameColorizer
+api-version: 1.18
+authors: [ elihusmails ]
+description: Sets the colors for the user names in chat
+
+commands:
+  chatColor:
+    description: Sets the chat color for the user
+    usage: /chatColor <color>
+  chatColors:
+    description: Provides the user with a list of supported colors
+    usage: /chatColors
